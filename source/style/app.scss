@@ -6,7 +6,6 @@ p {
   font-size: 12px;
   line-height: 18px;
 }
-
 .container {
   width: 930px;
   margin: 0 auto;
@@ -15,7 +14,6 @@ p {
   height: inherit;
 
 }
-
 @import 'common/header';
 @import 'common/fonts';
 @import 'common/text-block';
@@ -40,7 +38,6 @@ p,span,label, {
   text-transform: uppercase;
   font-size: 12px;
   top: 95px;
-  // left: 50px;
 }
 .vertical-text_section {
   top: 150px;
@@ -58,7 +55,3 @@ p,span,label, {
   color: white;
 }
 @import 'common/media'
-// 378px - 5k
-// 303px - 4k
-// 227px - 3k
-// 152px - 2k
