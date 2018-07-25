@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+p {
+  margin: 13px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+  padding: 0 23px;
+  position: relative;
+  height: inherit;
+
+}
+
+@import 'common/header';
+@import 'common/fonts';
+@import 'common/text-block';
+@import 'common/gallery';
+@import 'common/details';
+@import 'common/power';
+@import 'common/reasons';
+@import 'common/buying';
+@import 'common/footer';
+
+h1,h2,h3 {
+  font-family: 'openSans_L', sans-serif;
+  font-weight: 100;
+}
+p,span,label, {
+  font-family: 'openSans_R', sans-serif;
+}
+.vertical-text {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: #b8b8b8;
+  text-transform: uppercase;
+  font-size: 12px;
+  top: 95px;
+  // left: 50px;
+}
+.vertical-text_section {
+  top: 150px;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  color: #ccc;
+}
+.vertical-text_header {
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    color: white;
+}
+.vertical-text_white {
+  color: white;
+}
+@import 'common/media'
+// 378px - 5k
+// 303px - 4k
+// 227px - 3k
+// 152px - 2k

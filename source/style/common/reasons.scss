@@ -1,0 +1,22 @@
+.reasons {
+    background-color: #82ca9c;
+    padding: 95px 0 100px;
+    color: #ffffff;
+    position: relative;
+}
+.reasons__list {
+    display: flex;
+}
+.reasons__item {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding-right: 2.5%;
+}
+.reasons__title {
+    margin: 0 0 40px 0;
+    font-size: 26px;
+}
+.reasons__subtitle {
+    margin: 0;
+    padding: 10px 0;
+}

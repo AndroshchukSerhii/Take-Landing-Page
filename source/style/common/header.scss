@@ -1,0 +1,33 @@
+.first-screen {
+    background: url("../img/Rectangle.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    position: relative;
+}
+.header {
+    padding-top: 40px;
+}
+.first-screen__title {
+    margin: 25px 0;
+    font-size: 45px
+}
+.first-screen__content {
+    width: 378px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.iphone {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+}
+.iphone__img {
+    height: 700px;
+    width: auto;
+}
+

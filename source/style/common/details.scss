@@ -1,0 +1,26 @@
+.details {
+    padding: 75px 0 120px;
+    position: relative;
+}
+.details__list {
+    display: flex;
+}
+.details__item {
+    box-sizing: border-box;
+    width: 25%;
+    padding-right: 2.5%;
+    color: #b1b1b1;
+}
+.details__title {
+    font-size: 26px;
+    margin: 0 0 21px 0;
+}
+.details__subtitle {
+    color: #67676d;
+}
+
+
+// 930 - 100%
+// 23 - x%
+// 23*100/930
+// 222626

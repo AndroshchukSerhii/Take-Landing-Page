@@ -1,0 +1,123 @@
+@media (max-width: 993px) {
+    .container{
+        width: 90%;
+        box-sizing: border-box;
+        padding:  0 20px;
+    }
+     .vertical-text {
+        left: -50px;
+    }
+    .iphone {
+        bottom: -170px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+        box-sizing: border-box;
+        padding:  0 20px;
+    }
+
+    .vertical-text {
+        display: none;
+    }
+    .iphone {
+        bottom: -150px;
+        right: 10%;
+    }
+    .iphone__img {
+        height: 450px;
+    }
+    .details__list{
+        display: flex;
+        flex-flow:row wrap;
+    }
+    .details__item {
+        width: 50%;
+    }
+    .buying__card {
+        padding: 20px 15px;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .footer__left, .footer__right {
+        width: 100%;
+        justify-content: center;
+    }
+    .form {
+        box-sizing: border-box;
+        padding: 40px 0;
+        width: 80%;
+    }
+    .form__wrapper{
+        width: 100%;
+    }
+    .form__input {
+        width: 80%;
+    }
+    .form__button {
+        width: 20%;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+        padding:  0 20px;
+    }
+    .footer, .buying, .reasons, .details {
+        padding: 40px 0;
+    }
+    .vertical-text {
+        display: none;
+    }
+    .iphone {
+        bottom: -60px;
+    }
+    .iphone__img {
+        height: 300px;
+    }
+    .first-screen__content {
+        width: 70%;
+    }
+    .text-block {
+        padding-top: 20px;
+    }
+    .text-block__left,.text-block__right {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .text-block__container {
+        flex-flow: row wrap;
+    }
+    .reasons__list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .reasons__item {
+        width: 100%;
+    }
+    .details__list {
+        flex-flow: row wrap;
+    }
+    .details__item {
+        width: 90%;
+    }
+    .buying__wrap {
+        flex-flow: row wrap;
+    }
+    .buying__card {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 35px 50px 35px 40px;
+    }
+    .form {
+        box-sizing: border-box;
+        padding: 40px 0;
+        width: 100%;
+    }
+
+}

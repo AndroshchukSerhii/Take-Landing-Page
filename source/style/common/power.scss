@@ -1,0 +1,19 @@
+.power {
+    height: 520px;
+    background: url(../img/Layer8.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 40px 0 100px;
+    color: #ffffff;
+}
+.power__title {
+    font-size: 45px;
+}
+.power__wrap {
+    display: flex;
+    align-items: flex-end;
+}
+.power__article {
+    width: 350px;
+}

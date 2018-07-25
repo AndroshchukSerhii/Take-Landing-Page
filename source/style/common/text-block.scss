@@ -1,0 +1,29 @@
+.text-block {
+    padding-bottom: 65px;
+}
+.text-block__container {
+    padding: 95px 0 0 0;
+    display: flex;
+    color: #b1b1b1;
+    font-size: 12px
+}
+.text-block__title {
+    color: #222626;
+    font-size: 26px;
+    margin:  0 0 21px 0;
+}
+.text-block__right {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: flex-start;
+    box-sizing: border-box;
+    padding-top: 100px;
+    width: 50%;
+}
+.text-block__left {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: row wrap;
+    width: 50%;
+    padding-right: 25px; 
+}
